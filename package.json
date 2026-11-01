@@ -1,0 +1,17 @@
+{
+  "name": "itrakhana",
+  "version": "1.0.0",
+  "description": "Itrakhana - a small e-commerce store for Kannauj-style attars (Express + SQLite)",
+  "main": "server.js",
+  "engines": { "node": ">=22.13" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2"
+  }
+}
